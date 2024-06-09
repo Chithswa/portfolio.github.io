@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+      body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ccc;
+}
+#main a:hover{
+    color: white;
+}
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#about .card {
+    margin-top: -200px;
+}
+#bg-img{
+          background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu8b3UrKIxII_c7YCnK6xZT-E75pHkbDDmUA&s");
+          background-size: 100%;
+          background-repeat: none;
+          min-height: 500px;
+        }
+#about span{
+  padding: 10px 20px 10px 20px;
+}
+#about hr{
+  border-width: 3px;
+  margin-top: 06px;
+}
+#skill span{
+  padding: 10px 20px 10px 20px;
+}
+#skill hr{
+  border-width: 3px;
+  margin-top: 06px;
+}
+
+footer {
+    background-color: #333;
+}
+/*#skill{
+  padding-bottom: 10px;
+}*/
+#contact span{
+  padding: 10px 20px 10px 20px;
+}
+#contact hr{
+  border-width: 3px;
+  margin-top: 06px;
+}
+#experience span{
+  padding: 10px 20px 10px 20px;
+}
+#experience hr{
+  border-width: 3px;
+  margin-top: 06px;
+}
+</style>
+<body data-spy="scroll bg-white" data-target=".navbar">
+    <div id="main" >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skill">Skill</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!--show case-->
+<div id="bg-img"></div>
+
+ <!-- About Section -->
+ <section id="about" class="my-5">
+  <div class="container">
+      <!--<h2 class="text-center">About Me</h2>-->
+      <div class="row justify-content-center">
+          <div class="col-md-8">
+              <div class="card">
+                  <div class="row no-gutters">
+                      <div class="col-md-4">
+                          <img src="
+                          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJZcRVqUpRrPqUgwR2mi0pacuOy2UL-hv5cg&s" class="card-img" alt="Profile Picture" width="250" height="250" class="img-fuild mx-auto d-block">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title"> I'm Jhon Deo</h5>
+                              <p class="text-muted ml-5">Programmer & Blogger</p>
+                              <div class="container">
+                                <table class="table table-responsive ml-4">
+                                  <tr>
+                                    <td class="text-muted">Age</td>
+                                    <td>:</td>
+                                    <td>30 Years of Age</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-muted">Email</td>
+                                    <td>:</td>
+                                    <td>admin@onlineittuts.com</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-muted">Web site</td>
+                                    <td>:</td>
+                                    <td>www.onlineittuts.com</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="text-muted">Phone</td>
+                                    <td>:</td>
+                                    <td>+ 1 926 966 666</td>
+                                  </tr>
+                                </table>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card-footer bg-danger ">
+                    <a
+        data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-primary m-1"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+      <a
+      data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-primary m-1"
+      href="#!"
+      role="button"
+      ><i class="fab fa-twitter"></i
+    ></a>
+    <a
+    data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-primary m-1"
+    href="#!"
+    role="button"
+    ><i class="fab fa-instagram"></i
+  ></a>
+  <a
+  data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-primary m-1"
+  href="#!"
+  role="button"
+  ><i class="fab fa-youtube"></i
+></a>
+<a
+data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-primary m-1"
+href="#!"
+role="button"
+><i class="fab fa-github"></i
+></a>
+                   
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <span class="bg-primary text-white">About Me</span><hr class="bg-primary">
+        <p class="lead text-justify">I am a hard-working and driven individual who isn't afraid to face a challenge. I'm passionate about my work and I know how to get the job done. I would describe myself as an open and honest person who doesn't believe in misleading other people and tries to be fair in everything I do.</p>
+      </div>
+    </div>
+  </div>
+</section>
+  <!--Skill-->
+  <section>
+  <div id="skill"  class="mt-5">
+    <div class="container">
+      <span class="bg-primary text-white">Skill</span><hr class="bg-primary">
+      <div class="row">
+        <div class="col">
+          <div class="card bg-white">
+            <h3 class="ml-3 my-3">HTML Language</h3>
+            <div class="progress mx-3">
+              <div class="progress-bar bg-dark" style="width:95%">95%</div>
+            </div>
+            <h3 class="ml-3 my-3"> JavaScript</h3>
+            <div class="progress mx-3">
+              <div class="progress-bar bg-dark" style="width:75%">75%</div>
+            </div>
+            <h3 class="ml-3 my-3">Python</h3>
+            <div class="progress mx-3">
+              <div class="progress-bar bg-dark" style="width:65%">65%</div>
+            </div>
+            <h3 class="ml-3 my-3">Java</h3>
+            <div class="progress mx-3">
+              <div class="progress-bar bg-dark" style="width:70%">70%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+      <div class="container mt-5">
+            <span class="bg-primary text-white">Contact</span><hr class="bg-primary">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Experience-->
+<section id="experience" class="py-5">
+<div class="container mt-5">
+  <span class="bg-primary text-white">Experience</span><hr class="bg-primary">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Graphic designer</h5>
+          <p class="card-text">The graphic designer works with the rest of the creative team to develop advertising materials for our clients. We use Adobe software to design such as logos, brochures, print and digital advertisements, magazines and e-books. They should have a deep passion for design and always be looking for the latest graphic design trends and techniques.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 ">
+      <div class="card" style="height: 100%;">
+        <div class="card-body">
+          <h5 class="card-title">Customer service and sales manager</h5>
+          <p class="card-text">The customer service and sales manager is responsible for creating a welcoming atmosphere for all customers. Additionally, the customer service and sales manager keeps the storefront clean and orderly to maximize foot traffic and sales. Leading a team of sales associates is also a large part of the customer service and sales manager’s job.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
